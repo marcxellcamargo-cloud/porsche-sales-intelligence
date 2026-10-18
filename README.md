@@ -2,7 +2,7 @@
 
 Dashboard interativa de vendas Porsche, em um único arquivo HTML (HTML, CSS e JavaScript), feita a partir da planilha sanitizada do desafio da DIO.
 
-**Dashboard publicada:** _(https://marcxellcamargo-cloud.github.io/porsche-sales-intelligence/)_
+**Dashboard publicada:** https://marcxellcamargo-cloud.github.io/porsche-sales-intelligence/
 
 ## Evidência de funcionamento
 Dashboard completa, sem filtros (100 vendas, US$ 12.827.800,50):
