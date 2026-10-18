@@ -19,10 +19,10 @@ Exemplo de filtro aplicado, Estado = TX (14 vendas):
 3. **Como as vendas se dividem por método de pagamento?** Quantidade e percentual de cada método. É uma descrição do registro, não uma conclusão sobre preferência dos clientes.
 
 ## Ferramenta usada
-Usei **o Claude (Anthropic)** em conversa, em etapas: primeiro o diagnóstico da base, depois a construção do HTML. Não usei ChatGPT com Canvas nem agente com skill. _(Se você também testou outro caminho, descreva aqui a comparação.)_
+Usei **o Claude (Anthropic)** em conversa, em etapas: primeiro o diagnóstico da base, depois a construção do HTML. Não usei ChatGPT com Canvas nem agente com skill.
 
 ## O prompt e o que mudou até a versão final
-**Prompt inicial:** um briefing longo pedindo uma dashboard autoral em um único `index.html`, com três perguntas de negócio, filtros (modelo, local, ano, pagamento), indicadores de topo, paleta própria (grafite, cinza aço, dourado, turquesa, marfim), tratamento explícito de dados inválidos e documentação das decisões. _(Cole aqui o texto original completo, se quiser.)_
+**Prompt inicial:** um briefing longo pedindo uma dashboard autoral em um único `index.html`, com três perguntas de negócio, filtros (modelo, local, ano, pagamento), indicadores de topo, paleta própria (grafite, cinza aço, dourado, turquesa, marfim), tratamento explícito de dados inválidos e documentação das decisões.
 
 **O que mudou depois de analisar a base:**
 - Moeda: o briefing previa reais; a base está em dólares, então a dashboard exibe US$, sem conversão cambial.
