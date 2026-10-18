@@ -28,7 +28,8 @@ button:hover{border-color:var(--gold)}
 #count{color:var(--mut);font-size:.9rem;margin:0 0 16px}
 .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:16px}
 .kpi{border-top:3px solid var(--line)}
-.kpi b{display:block;font-size:clamp(1.1rem,1.9vw,1.45rem);overflow-wrap:anywhere;font-weight:600;line-height:1.2;margin-top:4px}
+.kpi{container-type:inline-size}
+.kpi b{display:block;white-space:nowrap;font-size:clamp(.95rem,8.5cqw,1.45rem);font-weight:600;line-height:1.2;margin-top:4px}
 .kpi span{color:var(--mut);font-size:.85rem}
 .kpi.gold{border-top:3px solid var(--gold)}
 .kpi.teal{border-top:3px solid var(--teal)}
