@@ -43,7 +43,7 @@ Usei **o Claude (Anthropic)** em conversa, em etapas: primeiro o diagnóstico da
 Fundo grafite, cartões em cinza aço, dourado para a hierarquia e a receita, turquesa para as comparações. Filtros ativos ficam com borda dourada, há estado vazio e aviso se a biblioteca de gráficos não carregar. Layout responsivo.
 
 ## Testes
-A lógica (filtros, receita, média e agrupamentos) foi conferida em Node contra os valores calculados em pandas: 100 vendas, US$ 12.827.800,50, média de US$ 128.278,01 e 40 modelos. _(Registrar aqui o resultado do seu teste manual no navegador e no GitHub Pages.)_
+A lógica (filtros, receita, média e agrupamentos) foi conferida em Node contra os valores calculados em pandas: 100 vendas, US$ 12.827.800,50, média de US$ 128.278,01 e 40 modelos. Testei os filtros no navegador e no GitHub Pages.
 
 ## Limitações
 Base pequena (100 registros): os rankings descrevem esta amostra e não permitem concluir rentabilidade, preferência ou causalidade. A receita registrada inclui vendas canceladas (US$ 625.250), destacadas no indicador próprio.
